@@ -16,7 +16,7 @@ $("#genvoucher").click(function (event) {
             if (result.ResultSets[0].length > 0)
                 {
                 console.log('激活失败：' + result.ResultSets[0][0].msg);
-                $("#msg").html( = '激活失败：' + result.ResultSets[0][0].msg);
+                $("#msg").html('激活失败：' + result.ResultSets[0][0].msg);
             }
             else
                 console.log('激活成功');
